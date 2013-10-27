@@ -24,6 +24,9 @@
 package jenkins.plugins.testlink.examples;
 
 import org.testng.Assert;
+import org.testng.ITestResult;
+import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 /**
@@ -50,9 +53,11 @@ public class TestCurrentTime
 	{
 		Assert.assertNotNull( System.currentTimeMillis() );
 		
-		Assert.assertTrue( System.currentTimeMillis() > 0 );
-                
+		Assert.assertTrue( System.currentTimeMillis() > 0 );               
+              
                 System.out.println("This is test current time two");
-	}
-	
+                
+                ITestResult result = Reporter.getCurrentTestResult();
+   	}     
+
 }
