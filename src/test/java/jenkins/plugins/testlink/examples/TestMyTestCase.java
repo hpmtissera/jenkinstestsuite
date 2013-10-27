@@ -32,27 +32,17 @@ import org.testng.annotations.Test;
  * @author Bruno P. Kinoshita - http://www.kinoshita.eti.br
  * @since 0.3
  */
-public class TestCurrentTime
+public class TestMyTestCase
 {
 
 	@Test
-	public void testCurrentTime() 
+	public void testSecondTestCase() 
 	{
 		Assert.assertNotNull( System.currentTimeMillis() );
 		
 		Assert.assertTrue( System.currentTimeMillis() > 0 );
                 
-                System.out.println("I worked really hard to do this :D");
-	}
-        
-        @Test
-        public void testCurrentTimeTwo() 
-	{
-		Assert.assertNotNull( System.currentTimeMillis() );
-		
-		Assert.assertTrue( System.currentTimeMillis() > 0 );
-                
-                System.out.println("This is test current time two");
+                System.out.println("This is my second test case");
 	}
 	
 }
