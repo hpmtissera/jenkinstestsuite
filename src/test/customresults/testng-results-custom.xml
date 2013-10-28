@@ -7,13 +7,13 @@
     </groups>
     <test name="Command line test" duration-ms="30" started-at="2013-10-27T22:43:27Z" finished-at="2013-10-27T22:43:27Z">
       <class name="jenkins.plugins.testlink.examples.TestCurrentTime">
-        <test-method status="FAIL" signature="testCurrentTime()[pri:0, instance:jenkins.plugins.testlink.examples.TestCurrentTime@6eb02efa]" name="testCurrentTime" duration-ms="12" started-at="2013-10-27T22:43:27Z" finished-at="2013-10-27T22:43:27Z">
+        <test-method status="PASS" signature="testCurrentTime()[pri:0, instance:jenkins.plugins.testlink.examples.TestCurrentTime@6eb02efa]" name="testCurrentTime" duration-ms="12" started-at="2013-10-27T22:43:27Z" finished-at="2013-10-27T22:43:27Z">
         </test-method>
         <test-method status="PASS" signature="testCurrentTimeTwo()[pri:0, instance:jenkins.plugins.testlink.examples.TestCurrentTime@6eb02efa]" name="testCurrentTimeTwo" duration-ms="1" started-at="2013-10-27T22:43:27Z" finished-at="2013-10-27T22:43:27Z">
         </test-method>
       </class>
       <class name="jenkins.plugins.testlink.examples.TestMyTestCase">
-        <test-method status="PASS" signature="testSecondTestCase()[pri:0, instance:jenkins.plugins.testlink.examples.TestMyTestCase@27e59128]" name="testSecondTestCase" duration-ms="1" started-at="2013-10-27T22:43:27Z" finished-at="2013-10-27T22:43:27Z">
+        <test-method status="TEST_ERROR" signature="testSecondTestCase()[pri:0, instance:jenkins.plugins.testlink.examples.TestMyTestCase@27e59128]" name="testSecondTestCase" duration-ms="1" started-at="2013-10-27T22:43:27Z" finished-at="2013-10-27T22:43:27Z">
         </test-method>
       </class>
     </test>
